@@ -4,8 +4,10 @@
 #whitelist files & folders
 !.gitignore
 !README.md
+!.Xresources
 
 !bin/
 
 !.config/
-#.config/*
+.config/*
+
