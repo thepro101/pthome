@@ -1,0 +1,12 @@
+#blacklist top level folder
+/*
+
+#whitelist files & folders
+!.gitignore
+!README.md
+
+!bin/*
+bin/*
+
+!.config
+.config/*
