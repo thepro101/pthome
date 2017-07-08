@@ -91,8 +91,8 @@ workspace $workspace2 output HDMI-1
 workspace $workspace3 output HDMI-1
 
 
-font pango:monospace 8
-
+#font pango:monospace 8
+font pango:Hack 12
 #font pango:DejaVu Sans Mono 8
 
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -135,6 +135,7 @@ bindsym $mod+F12 workspace $pwsshower
 # switch workspaces #
 bindsym $mod+Shift+Tab exec /home/patrick/bin/i3_switch_workspace.sh
 
+bindsym $mod+t exec skippy-xd
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
