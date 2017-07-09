@@ -1,9 +1,9 @@
 #1/bin/bash
 #
 ##
-## # Packages
+## # Packages AUR
 ##  - rxvt-unicode-256xresources
 ##  - ttf-font-awesome
-##  - 
+##  - urxvt-perls 
 ##
 
