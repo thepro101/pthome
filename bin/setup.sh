@@ -6,4 +6,10 @@
 ##  - ttf-font-awesome
 ##  - urxvt-perls 
 ##
+## # Packages Other
+##  - ncdu
+##  - git
+##  - tree
+##  - htop
+##
 
