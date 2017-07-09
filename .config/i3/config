@@ -28,6 +28,9 @@ set_from_resource	  $background_i3wmthemer	background
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
+new_window 1pixel
+
+
 set $mod Mod4
 
 set $ptws2 "2: %{T6}"
