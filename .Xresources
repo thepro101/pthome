@@ -40,3 +40,51 @@ rofi.color-window: #32302f, #a89984, #a89984
 rofi.color-normal: #32302f, #ebdbb2, #3c3836, #665c54, #fbf1c7
 rofi.color-active: #d79921, #32302f, #d79921, #fabd2f, #32302f
 rofi.color-urgent: #cc241d, #32302f, #cc241d, #fb4934, #32302f
+
+
+URxvt.saveLines:         10000
+URxvt*geometry:          96x30
+URxvt*terminalName:      rxvt-unicode-256color
+URxvt*visualBell:        false
+URxvt.scrollBar:         false
+URxvt*scrollTtyOutput:   false
+URxvt*scrollWithBuffer:  true
+URxvt*scrollTtyKeypress: true
+URxvt*shading: 15
+URxvt*saveLines: 12000
+URxvt*foreground: #657b83
+URxvt*background: #002b36
+URxvt*font: 		xft:Hack:antialias=true:pixelsize=16
+URxvt*boldFont: 	xft:DejaVu Sans Mono:style=bold:antialias=true:pixelsize=13
+
+!URxvt*font:              fonts
+!URxvt*boldFont:          fonts
+URxvt*italicFont:        fonts
+URxvt*boldItalicFont:    fonts
+URxvt.letterSpace:       true
+URxvt.keysym.C-Up:       perl:font-size:increase
+URxvt.keysym.C-Down:     perl:font-size:decrease
+URxvt.keysym.C-S-Up:     perl:font-size:incglobal
+URxvt.keysym.C-S-Down:   perl:font-size:decglobal
+URxvt*keysym.Home:       \033[1~
+URxvt*keysym.End:        \033[4~
+URxvt.tabbed.tabbar-bg:  -1
+URxvt.tabbed.tabbar-fg:  -2
+URxvt.tabbed.tab-bg:     -2
+URxvt.tabbed.tab-fg:     -1
+URxvt.tabbed.title-bg:   -1
+URxvt.tabbed.title-fg:   -2
+URxvt.tabbed.autohide:   true
+URxvt.tabbed.new-button: false
+URxvt.tabbed.title:      true
+URxvt.perl-ext-common:      default,clipboard,matcher,keyboard-select
+URxvt.keysym.M-u: perl:     url-select:select_next
+URxvt.url-select.autocopy:  true
+URxvt.url-select.button:    2
+URxvt.url-select.underline: true
+URxvt.url-launcher:         /usr/bin/firefox
+URxvt.matcher.button:       1
+URxvt.keysym.Shift-Control-V:   perl:clipboard:paste
+URxvt.keysym.Shift-Control-C:   perl:clipboard:copy
+
+URxvt.colorUL:             #83a598
